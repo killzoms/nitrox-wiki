@@ -9,3 +9,5 @@ The platform is separated into multiple projects:
 **NitroxPatcher** - Library that is injected into Subnautica.  Handles modifying internal data structures and bootstrapping the client.
 
 **ClientTester** - Dummy application that leverages NitroxClient to connect to the server and send simple requests.  Only used for testing purposes. 
+
+**NitroxTest** - Core unit testing project for all of the other projects.
