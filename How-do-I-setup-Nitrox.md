@@ -1,4 +1,3 @@
-# How do I setup Nitrox?
 1. Pull git repository locally
 2. Load .sln inside visual studios
 3. Resolve any missing dependencies(Assembly-CSharp.dll) 
