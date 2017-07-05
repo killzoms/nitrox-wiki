@@ -11,6 +11,6 @@
 7. Run NitroxServer project
 8. Start Subnautica
 9. Verify Subnautica logs Subnautica/Subnautica_Data/output_log.txt (Search for nitrox / verify no errors)
-10. Type in the console command "mplayer <name> <OPTIONAL ip>"
+10. Type in the console command "mplayer name OPTIONAL ip"
 11. Validate server console output
 
