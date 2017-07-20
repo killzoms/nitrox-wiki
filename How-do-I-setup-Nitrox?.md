@@ -6,7 +6,7 @@
 5. Copy NitroxModel, NitroxClient, and NitroxPatcher to Subnautica/Subnautica_Data/Managed
 6. Inject NitroxPatcher into Assembly-CSharp:
 * Load up dnspy
-* Find a suitable method that gets executed before the actual game starts(StartScreen_Start StartScreen Start)
+* Find a suitable method that gets executed before the actual game starts(StartScreen OnGuiInitialized())
 * Inject startup code: NitroxPatcher Main.Execute()
 7. Run NitroxServer project
 8. Start Subnautica
