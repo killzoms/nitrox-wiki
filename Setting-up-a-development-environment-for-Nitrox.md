@@ -7,7 +7,7 @@ Please be aware that this mod is in it's early stages of development, and that t
 4. Inject `NitroxPatcher` into `Assembly-CSharp`:
     1. Load up [dnspy](https://github.com/0xd4d/dnSpy);
     2. Find a suitable method that gets executed before the actual game starts (`GameInput.Awake()` for instance);
-    3. Add a reference to `NitroxPatcher` (in the edit window). This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
+    3. Add a reference to `NitroxPatcher` (in the 'edit method' window, left bottom corner buttons). This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
     4. Inject startup code: `NitroxPatcher.Main.Execute()`.
 5. Run NitroxServer project;
 6. Start Subnautica;
