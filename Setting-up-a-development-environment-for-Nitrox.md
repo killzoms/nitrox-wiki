@@ -9,9 +9,9 @@ Please be aware that this mod is in it's early stages of development, and that t
     2. Find a suitable method that gets executed before the actual game starts (`GameInput.Awake()` for instance);
     3. Add a reference to `NitroxPatcher` (in the 'edit method' window, left bottom corner buttons). This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
     4. Inject startup code: `NitroxPatcher.Main.Execute()`.
-5. Run NitroxServer project;
-6. Start Subnautica;
-7. Verify Subnautica logs Subnautica/Subnautica_Data/output_log.txt (Search for nitrox / verify no errors)
-8. Type in the console command `mplayer playername [ip]` (defaults to localhost);
-9. Validate server console output.
+5. Start Subnautica;
+6. Verify Subnautica logs Subnautica/Subnautica_Data/output_log.txt (Search for nitrox / verify no errors)
+7. Start server instance of subnautica (regular instance of subnautica with targets -server [optionally -nographics -batchmode])
+8. Verify no errors when starting server.
+9. In client, join a new game and type in the console command `mplayer playername [ip]` (defaults to localhost);
 
