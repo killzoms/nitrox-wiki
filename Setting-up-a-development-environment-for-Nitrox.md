@@ -7,11 +7,11 @@ Please be aware that this mod is in it's early stages of development, and that t
 4. Inject `NitroxPatcher` into `Assembly-CSharp`:
     1. Load up [dnspy](https://github.com/0xd4d/dnSpy)
     2. Find a suitable method that gets executed before the actual game starts (`GameInput.Awake()` for instance)
-    3. Add a reference to `NitroxPatcher` (in the 'edit method' window, left bottom corner buttons). This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
-    4. Inject startup code: `NitroxPatcher.Main.Execute()`.
+    3. open the method editor (<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>e</kbd> when your cursor is somewhere in this method)
+    4. Add a reference to `NitroxPatcher` (bottom-left corner, open button). This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
+    5. Inject startup code: `NitroxPatcher.Main.Execute()`.
 5. Start Subnautica
-6. Verify Subnautica logs Subnautica/Subnautica_Data/output_log.txt (Search for nitrox / verify no errors)
-7. Start server instance of subnautica (regular instance of subnautica with targets -server [optionally -nographics -batchmode]) creating a shortcut is recommended.
+6. Verify Subnautica logs at `Subnautica/Subnautica_Data/output_log.txt` (Search for `nitrox`, verify no errors)
+7. Start server instance of subnautica (regular instance of subnautica with targets `-server` [optionally `-nographics -batchmode`]), creating a shortcut is recommended.
 8. Verify no errors when starting server.
-9. In client, join a new game and type in the console command `mplayer playername [ip]` (defaults to localhost)
-
+9. In client, join a new game and type in the console command `mplayer playername [ip]` (defaults to localhost), or connect through the UI.
