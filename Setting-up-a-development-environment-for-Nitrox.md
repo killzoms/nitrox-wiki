@@ -11,7 +11,7 @@ Please be aware that this mod is in it's early stages of development, and that t
     4. Inject startup code: `NitroxPatcher.Main.Execute()`.
 5. Start Subnautica
 6. Verify Subnautica logs Subnautica/Subnautica_Data/output_log.txt (Search for nitrox / verify no errors)
-7. Start server instance of subnautica (regular instance of subnautica with targets -server [optionally -nographics -batchmode]) a shortcut is recommended.
+7. Start server instance of subnautica (regular instance of subnautica with targets -server [optionally -nographics -batchmode]) creating a shortcut is recommended.
 8. Verify no errors when starting server.
 9. In client, join a new game and type in the console command `mplayer playername [ip]` (defaults to localhost)
 
