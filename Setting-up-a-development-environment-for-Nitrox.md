@@ -1,6 +1,6 @@
 Please be aware that this mod is in it's early stages of development, and that the steps below are to set up a *development environment* for Nitrox. These steps are **not** for a regular install of this mod. We discourage the use of this mod for casual play until a stable public release has been made.
 
-1. Pull git repository locally
+1. Pull git repository locally (pass `--recursive` to `git clone` to init and clone submodules).
 2. Initialize git submodule(s) by running the following command: `git submodule update --init --recursive`. This command can also be used to fetch and update changes.
 3. Load `.sln` inside visual studio
 4. Build entire solution to generate binaries
