@@ -13,4 +13,4 @@ Please be aware that this mod is in it's early stages of development, and that t
 6. Start Subnautica
 7. Verify Subnautica logs at `Subnautica/Subnautica_Data/output_log.txt` (Search for `nitrox`, verify no errors)
 8. Run NitroxServer project and verify that there are no errors
-9. In client, join a new game and type in the console command `mplayer playername [ip]` (defaults to localhost), or connect through the UI.
+9. In the client, join a new game by connecting through the multiplayer button in the UI.
