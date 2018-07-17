@@ -10,7 +10,7 @@ Please be aware that this mod is in it's early stages of development, and that t
     2. Find a suitable method that gets executed before the actual game starts (`GameInput.Awake()` for instance)
     3. Add a reference to `NitroxPatcher`. This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
     4. Inject startup code: `NitroxPatcher.Main.Execute()`.
-    5. If you get compile errors like in [issue 221](../../issues/211) you should be able to remove the offending lines without repercussions.
+    5. If you get compile errors like in [issue 221](../issues/211) you should be able to remove the offending lines without repercussions.
 6. Start Subnautica
 7. Verify Subnautica logs at `Subnautica/Subnautica_Data/output_log.txt` (Search for `nitrox`, verify no errors)
 8. Run NitroxServer project and verify that there are no errors
