@@ -1,4 +1,4 @@
-The following software is used to install the Subnautica Nitrox Server.
+The following software is used to install the Subnautica Nitrox Server and patch.
 
 * [MS Visual Studio 2017 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15)
 * [GetBash](https://git-scm.com/download/win)
