@@ -4,7 +4,7 @@
 
 ***
 These instructions are inspired by a couple of videos explaining installation of this mod.<BR>
-{Links to the videos will be added later.}
+{Link to [original video](https://www.youtube.com/watch?v=_0IQ4VvTRXc).}
 ***
 
 ## Software Installation
