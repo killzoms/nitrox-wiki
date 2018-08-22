@@ -29,7 +29,7 @@ This mod is still in its early stages of development, and a public, easy to inst
 
 ### How can I contribute?
 
-Simply submit a pull request. Feel free to join us in the Subnautica Modders Discord channel.
+Simply submit a pull request. Feel free to join us in the [Subnautica Modders Discord channel](https://discord.gg/5JQAqQA).
 
 ### Why the name 'Nitrox'?
 
