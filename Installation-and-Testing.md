@@ -79,5 +79,5 @@ If the bug is reproducable, a developer will be able to tell you if the followin
 1. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\save.nitrox`
 2. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\UnityEngine.dll`
 3. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\UnityEngine.UI.dll`
-4. `Documents\Nitrox\NitroxServer\bin\Debug\Poly2Tri.dll`
+4. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\Poly2Tri.dll`
 5. `Documents\Nitrox\NitroxServer\UnityStubs\GameObject.cs`
