@@ -62,7 +62,7 @@ These instructions are inspired by a couple of videos explaining installation of
 ***
 
 ## Starting the Server
-1. Goto `Documents\Nitrox\NitroxServer\bin\Debug`
+1. Goto `Documents\Nitrox\NitroxServer\bin\Debug_WPF`
 2. Double click on `NitroxServer.exe`
 
 ***
@@ -76,8 +76,8 @@ To report a bug / error please give as much detailed information as you can.
 5. Subnautica game client version
 
 If the bug is reproducable, a developer will be able to tell you if the following files are necessary for bug analysis.
-1. `Documents\Nitrox\NitroxServer\bin\Debug\save.nitrox`
-2. `Documents\Nitrox\NitroxServer\bin\Debug\UnityEngine.dll`
-3. `Documents\Nitrox\NitroxServer\bin\Debug\UnityEngine.UI.dll`
+1. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\save.nitrox`
+2. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\UnityEngine.dll`
+3. `Documents\Nitrox\NitroxServer\bin\Debug_WPF\UnityEngine.UI.dll`
 4. `Documents\Nitrox\NitroxServer\bin\Debug\Poly2Tri.dll`
 5. `Documents\Nitrox\NitroxServer\UnityStubs\GameObject.cs`
