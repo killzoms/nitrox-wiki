@@ -29,7 +29,7 @@ This mod is still in its early stages of development, and a public, easy to inst
 
 ### How can I contribute?
 
-Simply submit a pull request. Feel free to join us in the [Subnautica Modders Discord channel](https://discord.gg/5JQAqQA).
+Simply submit a pull request.
 
 ### Why the name 'Nitrox'?
 
@@ -42,7 +42,5 @@ For an overview of the project, see the [main github page](https://github.com/Su
 * [Tasks to Complete](https://github.com/orgs/SubnauticaNitrox/projects/1)
 * [Platform Architecture Information](https://github.com/SubnauticaNitrox/Nitrox/wiki/Platform-Architecture)
 
-# Software and Installation
-* [Software Used for Development & Installation](https://github.com/SubnauticaNitrox/Nitrox/wiki/Software-Used-for-Development-&-Installation)
-* [Installation and Testing](https://github.com/SubnauticaNitrox/Nitrox/wiki/Installation-and-Testing)
-* [Original installation page](https://github.com/SubnauticaNitrox/Nitrox/wiki/Setting-up-a-development-environment-for-Nitrox)
+# Setting up your development environment
+If you are looking to just play with this mod, please see [this](https://www.youtube.com/watch?v=Mw1lzj5l2zk) video. If you are looking to compile the project from scratch and make contributions, please go [here](https://github.com/SubnauticaNitrox/Nitrox/wiki/Setting-up-a-development-environment-for-Nitrox).
