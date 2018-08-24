@@ -24,13 +24,13 @@ Note: The [original instructions](https://github.com/SubnauticaNitrox/Nitrox/wik
 2. Install Visual Studio 2017 Community version.<BR>
    A. Installation workloads should minimally have ".NET desktop development" and "Desktop development with C++"<BR>
    B. Install the WixToolKit extension
-3. Install GetBash {default installation options are acceptable}
+3. Install Git Bash {default installation options are acceptable}
 4. Extract dnSpy to a directory for later usage. {manual extraction, set up your own shortcuts}
 
 ***
 
 ## Mod Download
-1. Use GitBash {"Git CMD" link} to download a current copy of the mod.<BR>
+1. Use Git Bash {"Git CMD" link} to download a current copy of the mod.<BR>
    `git clone --recurse-submodules https://github.com/SubnauticaNitrox/Nitrox.git Documents/Nitrox`<BR>
    This should download to `C:\Users\{user name}\Documents\Nitrox` where {user name} is the current person logged in.<BR>
    If you ever want to update using the above command, the directory will need to be deleted and the command run again.
