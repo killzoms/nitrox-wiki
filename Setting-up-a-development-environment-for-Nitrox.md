@@ -7,7 +7,7 @@ Please be aware that this mod is in it's early stages of development, and that t
     - If your Subnautica installation folder is not located in the usual folder (`C:\Program Files (x86)\Steam\steamapps\common\Subnautica`), a file called `DevVars.targets` will be generated in the solution directory where an alternative path can be set up. If this file is present, this location will be used regardless of the usual folder.
 5. Inject `NitroxPatcher` into `Assembly-CSharp`:
     1. Load up [dnspy](https://github.com/0xd4d/dnSpy)
-    2. Find a suitable method that gets executed before the actual game starts (`GameInput.Awake()` for instance)
+    2. Inject before the first line of `GameInput.Awake()`
     3. Add a reference to `NitroxPatcher`. This should be in the same directory as `Assembly-CSharp`. If not, follow step 3 more carefully.
     4. Inject startup code: `NitroxPatcher.Main.Execute()`.
     5. If you get compile errors like in [issue 221](../issues/211) you should be able to remove the offending lines without repercussions.
