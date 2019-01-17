@@ -1,19 +1,5 @@
 Please be aware that this mod is in it's early stages of development, and that the steps below are to set up a *development environment* for Nitrox. These steps are **not** for a regular install of this mod. We discourage the use of this mod for casual play until a stable public release has been made.
 
-## Required tools
-**NOTE** If you know what you're doing you can, of course, pick your own poison. 
-1. Visual Studio (Community Edition or otherwise)
-2. [DnSpy](https://github.com/0xd4d/dnSpy)
-3. [Git](https://git-scm.com/downloads)
-
-### Optional tools
-**NOTE** You may need some of these tools depending on your setup. If you're new to programming these are recommended.
-1. [SourceTree](https://www.sourcetreeapp.com/)
-   This is a visual tool to help with Git. Though it is highly recommended to learn the git commandline.
-2. Additional Microsoft .NET components, such as .NET SDK's and .NET targeting packs.
-3. Unity if you want to work on visual aspects of the mod/game.
-4. SonarLint / Resharper plugin for Visual Studio to help you improve your code quality.
-
 ## Development Setup
 
 ### Repository setup
