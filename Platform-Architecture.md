@@ -10,13 +10,22 @@ Library that is used directly by Subnautica.  Contains monobehaviours, tcp clien
 Core server application that manages Nitrox players.
 
 ### NitroxPatcher
-Library that is injected into Subnautica.  Handles modifying internal data structures and bootstrapping the client.
+Library that is injected into Subnautica.  Handles modifying internal data structures and bootstrapping the client. It depends on the Harmony library. 
 
-### NitroxReloader
-Utility library that reloads methods while Subnautica is running.
+### NitroxUnity
+Asset library for UI/Game components introduced by Nitrox.
 
-### ClientTester
-Dummy application that leverages NitroxClient to connect to the server and send simple requests.  Only used for testing purposes. 
+### NitroxInstaller
+Wix-based MSI installer for Nitrox.
+
+### NitroxInstallerActions
+Custom actions for installation, i.e. code injection, firewall rules, etc.
 
 ### NitroxTest
 Core unit testing project for all of the other projects.
+
+### Harmony
+OpenSource library that helps modding games. Allows all kinds of cool stuff to modify original code.
+
+### Lidgren-Network
+OpenSource network library that facilitates all networking operations between clients and server.
