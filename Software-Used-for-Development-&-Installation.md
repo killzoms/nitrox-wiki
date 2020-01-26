@@ -12,7 +12,7 @@ The following software is used to install the Subnautica Nitrox Server and patch
    This is a visual tool to help with Git. Though it is highly recommended to learn the git commandline.
 2. Additional Microsoft .NET components, such as .NET SDK's and .NET targeting packs.
 3. [Unity 2019.2.8](https://unity3d.com/get-unity/download/archive) if you want to work on visual aspects of the mod/game.
-   - Direct link: [Win64](https://download.unity3d.com/download_unity/ebce4d76e6e8/Windows64EditorInstaller/UnitySetup64-2019.2.9f1.exe)
+   - Direct link: [Win64](https://download.unity3d.com/download_unity/ff5b465c8d13/Windows64EditorInstaller/UnitySetup64-2019.2.8f1.exe)
 4. SonarLint / Resharper plugin for Visual Studio to help you improve your code quality.
 5. [WixToolKit](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension) if you want to compile the installer
 
